@@ -113,14 +113,16 @@ namespace SongDataService
             songs.Add(BestMusic7Song);
             songs.Add(BestMusic8Song);
             songs.Add(BestMusic9Song);
-            songs.Add(BestMusic10Song);
+            songs.Remove(BestMusic10Song);
         }
-
         public void AddSong(Song sound)
         {
             songs.Add(sound);
         }
-
+        public void RemoveSong(Song sound)
+        {
+            songs.Remove(sound);
+        }
         public List<Song> GetSongList()
         {
             return songs;

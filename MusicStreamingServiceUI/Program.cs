@@ -29,8 +29,6 @@ namespace MusicStreamingServiceUI
                 Console.WriteLine("10- Stephen Sanchez");
                 Console.WriteLine("----------------------------------------\n");
                 Console.Write("Enter your Artist. Type 0 to exit: ");
-                
-
                 choice = Console.ReadLine();
 
                 switch (choice)
